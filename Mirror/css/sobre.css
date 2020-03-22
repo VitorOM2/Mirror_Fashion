@@ -1,0 +1,76 @@
+body
+{
+    /*Muda a fonte e a cor*/
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+    /*Centraliza a página*/
+    margin-left:	auto;
+    margin-right:	auto;
+    width: 940px;
+}
+
+h1
+{
+    /*Coloca imagem no título principal*/
+    background-image:	url(../img/sobre-background.jpg);
+    padding: 10px;   
+}
+h2
+{
+    /*Coloca uma borda sútil nos subtítulos*/
+    border-bottom: 2px	solid	#333333;
+    margin-top: 30px;/*Espaçamento da margem de cima*/
+}
+p
+{
+    padding: 0 45px;/*Espaçamento*/ 
+    text-indent: 15px;
+}
+/*--------------------------------------------IMAGENS---------------------------------------------------*/
+
+/*Renderização das figuras*/
+figure
+{
+    background-color: #F2EDED;/*Cor de fundo*/
+    border: 1px solid #ccc;/*Cria uma borda*/
+    text-align:	center;/*Deixa centralizado*/
+    padding: 15px;/*Espaçamento*/
+    margin: 30px;/*Espaçamento da margem*/
+}
+/*Descrição das imagens*/
+figcaption
+{
+    font-style:	italic;/*Deixa a fonte em italico*/
+    margin-top: 10px;/*Espaçamento da margem de cima*/
+}
+/*Ajusta os limites,posição e tamanho da imagem do centro de distribuição */
+#cd
+{
+    margin-left:auto;
+    margin-right:auto;
+    width: 550px;
+}
+/*Ajusta os limites,posição e tamanho da imagem da familia*/
+#fp
+{
+    float: right; /*Posição*/
+    margin: 0 0 10px 10px;
+}
+
+
+/*----------------------------------------------RODAPÉ---------------------------------------------------*/
+
+/*Ajusta o rodapé da página*/
+#rodape
+{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+/*Ajusta a imagem do rodapé*/
+#rodape img
+{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
