@@ -1,3 +1,4 @@
+/*---------------Corpo---------------*/
 body
 {
     color: #333333;
@@ -17,7 +18,9 @@ header
 {
     position: relative;
 }
+/*---------------Fim do Corpo---------------*/
 
+/*---------------Sacola---------------*/
 .sacola
 {
     background-image: url(../img/sacola.png);
@@ -34,8 +37,9 @@ header
     top: 0;
     right: 0;
 }
+/*---------------Fim da Sacola---------------*/
 
-/*Menu de opções*/
+/*---------------Menu de opções-------------*/
 .menu-opcoes
 {
     position: absolute;
@@ -58,3 +62,41 @@ header
 {
     color: #003366;
 }
+/*---------------Fim do Menu de opções-------------*/
+
+/*---------------Paineis---------------*/
+.painel
+{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.painel li
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+.painel a
+{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.novidades
+{
+    background-color: #F5DCDC;
+    float: left;
+}
+
+.mais-vendidos
+{
+    background-color: #DCDCF5;
+    float: right;
+}
+/*---------------Fim dos Paineis---------------*/
