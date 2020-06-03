@@ -75,6 +75,18 @@ footer .container
 /*---------------Fim do Corpo---------------*/
 
 /*---------------Busca e Menu Departamentos---------------*/
+
+.busca,
+.menu-departamentos
+{
+    float: left;
+}
+
+.menu-departamentos
+{
+    clear: left;
+}
+
 .busca input [type=search]
 {
     width: 170px;
@@ -108,6 +120,17 @@ footer .container
 {
     color: #333333;
     text-decoration: none;
+}
+
+.menu-departamentos
+{
+    margin-top: 10px ;
+    padding-bottom: 10px;
+}
+
+.destaque
+{
+    margin-top: 10px;
 }
 
 /*---------------Sacola---------------*/
