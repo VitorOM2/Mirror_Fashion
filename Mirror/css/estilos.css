@@ -91,6 +91,22 @@ footer .container
 {
     width: 170px;
 }
+.busca button
+{
+    /*-----Adicionando Imagens-----*/
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+
+    /*-----Tamanho da Imagem-----*/
+    width: 20px;
+    height: 20px;
+
+    /*-----Imagem Replacment-----*/
+    text-indent: -9999px;
+}
+
+
 .busca,
 .menu-departamentos
 {
