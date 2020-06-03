@@ -187,10 +187,16 @@ footer .container
     margin-left: 20px;
 }
 
-.menu-opcoes a
+.menu-opcoes a:hover
 {
-    color: #003366;
+    color: #007DC6;
 }
+
+.menu-opcoes a:active
+{
+    color: #867DC6;
+}
+
 /*---------------Fim do Menu de opções-------------*/
 
 /*---------------Paineis---------------*/
