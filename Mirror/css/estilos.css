@@ -74,7 +74,11 @@ footer .container
 
 /*---------------Fim do Corpo---------------*/
 
-/*---------------Busca---------------*/
+/*---------------Busca e Menu Departamentos---------------*/
+.busca input [type=search]
+{
+    width: 170px;
+}
 .busca,
 .menu-departamentos
 {
